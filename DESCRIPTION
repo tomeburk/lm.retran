@@ -1,0 +1,12 @@
+Package: lm.retran
+Title: Compute SE and R^2 of regression retransformed values
+Version: 0.0.0.9000
+Authors@R: person("Thomas", "Burk", email = "tburk@umn.edu", role = c("aut", "cre"))
+Description: For an lm object where the dependent variable in the model is a
+    power transformation of the original response scale, standard error-like
+    and R-squared-like statistics are computed in the original response scale.
+Depends:
+    R (>= 3.1.2)
+License: MIT
+LazyData: true
+RoxygenNote: 5.0.1
